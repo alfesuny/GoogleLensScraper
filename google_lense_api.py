@@ -89,7 +89,9 @@ def ocr_it( file_path = None ):
     extracted_string = extracted_string.replace( "ছবি দিয়ে সার্চ করুন" , "")
     extracted_string = extracted_string.replace( "আপনি কোন বিষয়ে মতামত দিতে চান তা বেছে নিন" , "")
 
+
     driver.close()
+
      
     return extracted_string
 
